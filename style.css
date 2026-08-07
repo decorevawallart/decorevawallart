@@ -177,10 +177,12 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Wall 12 */
-.wall12 {
-    object-fit: cover;
-    object-position: center center;
+.card img.wall12 {
+    width: calc(100% + 50px);
+    max-width: none;
+    height: 280px;
+    object-fit: contain;
+    transform: translateX(-50px);
 }
 
 /* Contact Section */
