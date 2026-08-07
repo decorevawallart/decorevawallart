@@ -177,12 +177,12 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.card img.wall12 {
-    width: calc(100% + 50px);
-    max-width: none;
+#collection .products .card img.wall12 {
+    position: relative;
+    left: -50px !important;
+    width: 100% !important;
     height: 280px;
     object-fit: contain;
-    transform: translateX(-50px);
 }
 
 /* Contact Section */
